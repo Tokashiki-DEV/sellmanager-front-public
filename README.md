@@ -1,4 +1,5 @@
-🛠️ Sellsmanager:  Sistema de Gestão de Vendas, Estoque e Clientes 
+🛠️ Sellsmanager:  Sistema de Gestão de Vendas, Estoque e Clientes.
+ 
 Este projeto é uma aplicação web completa desenvolvida como um SaaS (Software as a Service), voltada para a gestão eficiente de vendas, estoque e clientes. Pensado especialmente para pequenos e médios negócios, o sistema oferece uma interface intuitiva e recursos poderosos que facilitam o dia a dia de gestão.
 
 ✨ Funcionalidades principais:
