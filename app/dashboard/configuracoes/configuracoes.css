@@ -1,0 +1,25 @@
+.feeInput {
+  width: 320;
+  .mantine-TextInput-label {
+    font-weight: bold;
+    font-size: 18;
+    color: var(--color-text1);
+  }
+  .mantine-TextInput-description {
+    font-weight: medium;
+    font-size: 14;
+    color: var(--small-text);
+  }
+  .mantine-TextInput-input {
+    width: 320px;
+    background-color: var(--icon-select-bg-color);
+    border-radius: 8;
+  }
+}
+.feeCheckbox {
+  .mantine-Checkbox-label {
+    font-weight: medium;
+    font-size: 14;
+    color: var(--color-text1);
+  }
+}

@@ -1,0 +1,131 @@
+.numberInput {
+  .mantine-NumberInput-label {
+    font-weight: bold;
+    font-size: 18;
+    color: var(--color-text1);
+  }
+  .mantine-NumberInput-description {
+    font-weight: medium;
+    font-size: 14;
+    color: var(--small-text);
+  }
+  .mantine-NumberInput-input {
+    background-color: var(--icon-select-bg-color);
+    border-radius: 8;
+  }
+  .mantine-NumberInput-section {
+    width: 100px;
+  }
+}
+.numberButtons {
+  width: 50px;
+}
+.produtosDatepicker {
+  .mantine-DatePickerInput-label {
+    font-weight: bold;
+    font-size: 16;
+    color: var(--color-text1);
+  }
+}
+.produtoTextInput {
+  .mantine-TextInput-label {
+    font-weight: bold;
+    font-size: 18;
+    color: var(--color-text1);
+  }
+  .mantine-TextInput-description {
+    font-weight: medium;
+    font-size: 14;
+    color: var(--small-text);
+  }
+  .mantine-TextInput-input {
+    width: 100%;
+    background-color: var(--icon-select-bg-color);
+    border-radius: 8;
+  }
+}
+.categoriaTextInput {
+  .mantine-TextInput-label {
+    font-weight: bold;
+    font-size: 18;
+    color: var(--color-text1);
+  }
+  .mantine-TextInput-description {
+    font-weight: medium;
+    font-size: 14;
+    color: var(--small-text);
+  }
+  .mantine-TextInput-input {
+    background-color: var(--icon-select-bg-color);
+    border-radius: 8;
+  }
+}
+.valorTextInput {
+  .mantine-TextInput-label {
+    font-weight: bold;
+    font-size: 18;
+    color: var(--color-text1);
+  }
+  .mantine-TextInput-description {
+    font-weight: medium;
+    font-size: 14;
+    color: var(--small-text);
+  }
+  .mantine-TextInput-input {
+    background-color: var(--icon-select-bg-color);
+    border-radius: 8;
+  }
+}
+.produtosTable {
+  .mantine-Table-thead {
+    background-color: var(--icon-select-bg-color);
+  }
+}
+
+.produtoCheckbox {
+  .mantine-Checkbox-label {
+    font-weight: medium;
+    font-size: 14;
+    color: var(--small-text);
+  }
+}
+.thead {
+  border-right: 1px solid;
+  border-color: var(--small-text);
+}
+.theadStart {
+  border-top-left-radius: 8px;
+  border-right: 1px solid;
+  border-color: var(--small-text);
+}
+.theadEnd {
+  border-top-right-radius: 8px;
+}
+
+.trashIcon {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.trashIcon:hover {
+  color: var(--primary-color);
+}
+.modalProduto {
+  .mantine-Modal-title {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+  }
+}
+
+#confirmProduto {
+  width: 100%;
+}
+.produtosTableWrapper {
+  max-height: 95%;
+  overflow-y: auto;
+  overflow-x: auto;
+  scrollbar-color: var(--separator-color);
+}

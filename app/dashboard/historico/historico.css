@@ -1,0 +1,41 @@
+.historicoDatepicker {
+  .mantine-DatePickerInput-label {
+    font-weight: bold;
+    font-size: 18;
+    color: var(--color-text1);
+  }
+}
+.historicoTextInput {
+  .mantine-TextInput-label {
+    font-weight: bold;
+    font-size: 18;
+    color: var(--color-text1);
+  }
+  .mantine-TextInput-description {
+    font-weight: medium;
+    font-size: 14;
+    color: var(--small-text);
+  }
+  .mantine-TextInput-input {
+    background-color: var(--icon-select-bg-color);
+    border-radius: 8;
+  }
+}
+.historicoCheckbox {
+  .mantine-Checkbox-label {
+    font-weight: medium;
+    font-size: 14;
+    color: var(--color-text1);
+  }
+}
+.historicoTable {
+  .mantine-Table-thead {
+    background-color: var(--icon-select-bg-color);
+  }
+}
+.tableWrapper {
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: auto;
+  scrollbar-color: var(--separator-color);
+}

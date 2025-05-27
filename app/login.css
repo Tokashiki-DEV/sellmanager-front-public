@@ -1,0 +1,22 @@
+.userInput {
+    width: 250px;
+.mantine-Input-input{
+    text-align:flex-start;
+}     
+}
+.passwordInput {
+    width: 250px;
+    .mantine-Input-input{
+        text-align:flex-start;
+        color: #505662
+    }   
+}
+.loginButton{
+    width: 250px;
+    background-color: #0A265C;
+}
+.userIcon{
+    color:#0A265C;
+    width: 120px;
+    height: 120px;
+}

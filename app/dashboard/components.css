@@ -1,0 +1,74 @@
+.backButton {
+  background-color: var(--primary-color);
+  width: 50%;
+}
+.backButton:hover {
+  background-color: var(--primary-hover);
+}
+
+.finishButton {
+  background-color: var(--green-color);
+  width: 50%;
+}
+.finishButton:hover {
+  background-color: var(--green-hover-color);
+}
+
+.addClientInput {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  z-index: 99;
+
+  .mantine-TextInput-label,
+  .mantine-Select-label,
+  .mantine-NumberInput-label {
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--color-text1);
+    z-index: 99;
+  }
+
+  .mantine-Select-description {
+    font-size: 14px;
+  }
+
+  .mantine-TextInput-input,
+  .mantine-Select-input,
+  .mantine-NumberInput-input {
+    border-radius: 8px;
+    background-color: var(--icon-select-bg-color);
+    color: var(--small-text);
+    z-index: 99;
+  }
+}
+
+.clienteTable {
+  outline: 1px solid var(--separator-color);
+  .mantine-Table-thead {
+    background-color: var(--table-head-color);
+  }
+}
+.thead {
+  border-right: 1px solid;
+  border-color: var(--sidebar-bg-color);
+  color: var(--primary-color);
+}
+.theadStart {
+  color: var(--primary-color);
+
+  border-top-left-radius: 8px;
+  border-right: 1px solid;
+  border-color: var(--sidebar-bg-color);
+}
+.theadEnd {
+  color: var(--primary-color);
+
+  border-top-right-radius: 8px;
+}
+.edit-input {
+  .mantine-TextInput-input {
+    background-color: var(--icon-select-bg-color);
+    border-radius: 8;
+  }
+}

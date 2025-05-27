@@ -1,0 +1,64 @@
+.sidebar{
+    background-color: var(--sidebar-bg-color);
+    border-right: 2px solid var(--separator-color);
+    color: var(--color-text1);
+    transition: all 0.2s ;
+}
+
+.border-bottom-separator {
+    border-bottom: 2px solid var(--separator-color);
+}   
+
+.navIcon {
+    height: 20px;
+    width: 20px;
+}
+.nav-1{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 4px 8px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-1:hover, .logoutButton:hover, .sidebarCloseIcon:hover{
+    background-color: var(--icon-select-bg-color);
+    outline: 1px solid var(--separator-color);
+    border-radius: 8px;
+    color: var(--primary-color);
+}
+
+.logoutButton{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    padding: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 24px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--color-text1);
+    background-color: var(--icon-select-bg-color);
+    outline: 1px solid var(--separator-color);
+    border-radius: 8px;
+}
+
+.isActive{
+    background-color: var(--icon-select-bg-color);
+    outline: 1px solid var(--separator-color);
+    border-radius: 8px;
+    color: var(--primary-color);
+}
+
+.navUserIcon {
+    height: 32px;
+    width: 32px;
+}

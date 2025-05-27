@@ -1,0 +1,58 @@
+.funcionariosDatepicker {
+  .mantine-DatePickerInput-label {
+    font-weight: bold;
+    font-size: 18;
+    color: var(--color-text1);
+  }
+}
+.addEmployeInput {
+  .mantine-TextInput-label {
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--color-text1);
+  }
+  .mantine-TextInput-input {
+    border-radius: 8px;
+    background-color: var(--icon-select-bg-color);
+    color: var(--small-text);
+  }
+}
+.funcionariosCheckbox {
+  .mantine-Checkbox-label {
+    font-weight: medium;
+    font-size: 14;
+    color: var(--small-text);
+  }
+}
+#funcionariosAddButton {
+  width: 100%;
+}
+
+.employeCard {
+  color: var(--color-text1);
+}
+.employeCard:hover {
+  background-color: var(--icon-select-bg-color);
+  color: var(--color-text1);
+}
+
+.employeeCardWrapper {
+  max-height: 95%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-color: var(--separator-color);
+  padding-bottom: 45px;
+}
+
+.selected-employee {
+  background-color: var(--primary-color);
+  color: white;
+}
+.modalFuncionarios {
+  .mantine-Modal-title {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+  }
+}

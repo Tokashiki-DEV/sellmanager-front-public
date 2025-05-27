@@ -1,0 +1,71 @@
+.servicosTextInput {
+  width: 40%;
+  .mantine-TextInput-label {
+    font-weight: bold;
+    font-size: 18;
+    color: var(--color-text1);
+  }
+  .mantine-TextInput-description {
+    font-weight: medium;
+    font-size: 14;
+    color: var(--small-text);
+  }
+  .mantine-TextInput-input {
+    background-color: var(--icon-select-bg-color);
+    border-radius: 8;
+  }
+}
+.pesquisarTextInput {
+  width: 80%;
+  .mantine-TextInput-label {
+    font-weight: bold;
+    font-size: 18;
+    color: var(--color-text1);
+  }
+  .mantine-TextInput-description {
+    font-weight: medium;
+    font-size: 14;
+    color: var(--small-text);
+  }
+  .mantine-TextInput-input {
+    background-color: var(--icon-select-bg-color);
+    border-radius: 8;
+  }
+}
+.servicosPopupTextInput {
+  .mantine-TextInput-label {
+    font-weight: bold;
+    font-size: 18;
+    color: var(--color-text1);
+  }
+  .mantine-TextInput-description {
+    font-weight: medium;
+    font-size: 14;
+    color: var(--small-text);
+  }
+  .mantine-TextInput-input {
+    width: 100%;
+    background-color: var(--icon-select-bg-color);
+    border-radius: 8;
+  }
+}
+.modalServico {
+  .mantine-Modal-title {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+  }
+}
+#confirmServico {
+  width: 100%;
+}
+#serviceAddButton {
+  width: 300px;
+}
+.servicesWrapper {
+  max-height: 99%;
+  overflow-y: auto;
+  overflow-x: auto;
+  scrollbar-color: var(--separator-color);
+}

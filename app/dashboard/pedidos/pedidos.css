@@ -1,0 +1,72 @@
+.ordersSelect {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  .mantine-Select-label {
+ 
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--color-text1);
+  }
+
+  .mantine-Select-description {
+    font-weight: medium;
+    font-size: 14px;
+    color: var(--small-text);
+  }
+
+  .mantine-Select-input {
+    border-radius: 8px;
+    background-color: var(--icon-select-bg-color);
+    color: var(--small-text);
+  }
+
+}
+
+
+.modal {
+  .mantine-Modal-header {
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+  }
+  .mantine-Modal-title {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    margin-bottom: 0;
+  }
+  .mantine-Modal-content {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--sidebar-bg-color);
+  border: 1px solid #0a265c25;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  }
+}
+
+.numberInput {
+  .mantine-NumberInput-label {
+    font-weight: bold;
+    font-size: 18;
+    color: var(--color-text1);
+  }
+  .mantine-NumberInput-description {
+    font-weight: medium;
+    font-size: 14;
+    color: var(--small-text);
+  }
+  .mantine-NumberInput-input {
+    background-color: var(--icon-select-bg-color);
+    border-radius: 8;
+    width: auto;
+  }
+  .mantine-NumberInput-section {
+    width: 100px;
+  }
+}
