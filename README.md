@@ -9,3 +9,5 @@ Este projeto é uma aplicação web completa desenvolvida como um SaaS (Software
  - Cadastro e Gestão de Clientes
  - Armazenamento de informações de clientes com histórico de compras
  - Visualização em tempo real de dados operacionais, como vendas por período, produtos mais vendidos, e desempenho geral.
+
+❗ Este é somente o front-end, o back-end está em outro repositório
